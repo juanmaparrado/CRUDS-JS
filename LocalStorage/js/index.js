@@ -67,9 +67,6 @@ function save() {
     };
     details.push(data);
     setData();
-
-    // console.log(details)
-    // console.log(email.value)
     table();
     name.value = "";
     email.value = "";
